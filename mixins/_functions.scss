@@ -1,0 +1,17 @@
+@function margins($margin-top: null, $margin-right: null, $margin-bottom: null , $margin-left: null) {
+  @if($margin-top) {
+    @return ($margin-top $margin-top $margin-top $margin-top);
+  }
+  @else if($margin-top and $margin-right) {
+    @return ($margin-top $margin-right $margin-top $margin-right);
+  }
+  @else if($margin-top and $margin-right and $margin-bottom) {
+    @return ($margin-top $margin-right $margin-bottom $margin-right);
+  }
+  @else if($margin-top and $margin-right and $margin-bottom and $margin-left) {
+    @return ($margin-top $margin-right $margin-bottom $margin-left);
+  }
+  @else {
+    @error "Wrong Arguments passed to margins function";
+  }
+}

@@ -1,0 +1,115 @@
+.white {
+	background-color: $white;
+	color: $grey-dark;
+	border: 1px solid $grey-lighter;
+}
+
+.silver {
+	background-color: $silver;
+	color: $black;
+}
+
+.black {
+	background-color: $black;
+	color: $white;
+}
+
+.blue {
+	background-color: $blue;
+	color: $white;
+}
+
+.dark-blue {
+	background-color: darken($blue, 10%);
+	color: $white;
+}
+
+.green-dark {
+	background-color: $green-dark;
+	color: $white;
+}
+
+.green {
+	background-color: $green;
+	color: $white;
+}
+
+.green-bright {
+	background-color: $green-bright;
+	color: $white;
+}
+
+.beige {
+	background-color: $beige;
+	color: $white;
+}
+
+.red {
+	background-color: $red;
+	color: $white;
+}
+
+.golden {
+	background-color: $golden;
+	color: $white;
+}
+
+.grey {
+	background-color: $grey;
+	color: $white;
+}
+
+.maroon {
+	background-color: $maroon;
+	color: $white;
+}
+
+.purple {
+	background-color: $purple;
+	color: $white;
+}
+
+.brown {
+	background-color: $brown;
+	color: $white;
+}
+
+.yellow {
+	background-color: $yellow;
+	color: $white;
+}
+
+.bronze {
+	background-color: $bronze;
+	color: $white;
+}
+
+.wine {
+	background-color: $wine;
+	color: $white;
+}
+
+.violet {
+	background-color: $violet;
+	color: $white;
+}
+
+.orange{
+	background-color: $orange;
+	color: $white;
+}
+
+.sky {
+	background-color: $sky;
+	color: $white;
+}
+
+.cyan {
+	background-color: $cyan;
+	color: $white;
+}
+
+.green-fg {
+	color: $green;
+}
+//TODO fix this

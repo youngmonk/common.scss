@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Light.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Light.ttf') format('truetype');;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-LightItalic.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Medium.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-MediumItalic.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-MediumItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Bold.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-BoldItalic.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Black.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PreludeWGL';
+    src: url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-BlackItalic.WOFF') format('woff'),
+         url('//static.gozoomo.com/web-assets/fonts/PreludeWGL/PreludeWGL-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+/*
+// Small (sm) devices
+@media (min-width: 768px) {
+    html{ font-size: 55%; }
+}
+// Medium (md) devices
+@media (min-width: 992px) {
+    html{ font-size: 62.5%; }
+}
+// Large (lg) devices
+@media (min-width: 1200px) {
+    html{ font-size: 72%; }
+}*/

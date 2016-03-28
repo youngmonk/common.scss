@@ -1,0 +1,11 @@
+.flexbox {
+  @include flexbox();
+  @extend clearfix;
+  flex-wrap: wrap;
+}
+
+.flex {
+  @include flex(1 0);
+  display: inline-block;
+  float: left;
+}

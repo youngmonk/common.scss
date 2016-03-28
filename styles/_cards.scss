@@ -1,0 +1,17 @@
+//
+// Cards
+// --------------------------------------------------
+
+.card {
+  margin: 30px 0px 0px 0px;
+  padding: 30px 30px;
+  background-color: $white;
+  box-shadow: 0 1px 4px rgba($black, 0.2);
+  border-radius: 3px;
+  position: relative;
+
+  @include transition (all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000));
+  &--only-shadow {
+    box-shadow: 0 1px 4px rgba($black, 0.2);
+  }
+}

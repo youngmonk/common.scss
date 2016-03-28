@@ -1,0 +1,357 @@
+@font-face {
+  font-family: 'GoZoomoIcons';
+  font-weight: normal;
+  font-style: normal;
+  src: url('//static.gozoomo.com/web-assets/icons/0.2.8/GoZoomoIcons.eot') format('embedded-opentype'),
+  url('//static.gozoomo.com/web-assets/icons/0.2.8/GoZoomoIcons.woff') format('woff'),
+  url('//static.gozoomo.com/web-assets/icons/0.2.8/GoZoomoIcons.ttf') format('truetype'),
+  url('//static.gozoomo.com/web-assets/icons/0.2.8/GoZoomoIcons.svg') format('svg');
+}
+
+i, .gozoomoicons-liga {
+  font-family: 'GoZoomoIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: inline-block;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  @include font-feature-settings(liga);
+
+  /* Better Font Rendering =========== */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+//TODO create an icons.scss and get thie reviewed by anurag
+
+i.ac:before {
+  content: "\e600";
+}
+i.add:before {
+  content: "\e601";
+}
+i.add_outline:before {
+  content: "\e602";
+}
+i.airbags:before {
+  content: "\e603";
+}
+i.alerts:before {
+  content: "\e604";
+}
+i.automatic:before {
+  content: "\e605";
+}
+i.back:before {
+  content: "\e606";
+}
+i.bluetooth:before {
+  content: "\e607";
+}
+i.body:before {
+  content: "\e608";
+}
+i.bookmark:before {
+  content: "\e609";
+}
+i.box:before {
+  content: "\e60a";
+}
+i.brake_antilock:before {
+  content: "\e60b";
+}
+i.brake_assist:before {
+  content: "\e60c";
+}
+i.brake_electronic:before {
+  content: "\e60d";
+}
+i.budget:before {
+  content: "\e60e";
+}
+i.call:before {
+  content: "\e60f";
+}
+i.call_seller:before {
+  content: "\e610";
+}
+i.central_locking:before {
+  content: "\e611";
+}
+i.check:before {
+  content: "\e612";
+}
+i.clear:before {
+  content: "\e613";
+}
+i.climate:before {
+  content: "\e614";
+}
+i.close:before {
+  content: "\e615";
+}
+i.close_outline:before {
+  content: "\e616";
+}
+i.color:before {
+  content: "\e617";
+}
+i.deals:before {
+  content: "\e618";
+}
+i.delete:before {
+  content: "\e619";
+}
+i.down:before {
+  content: "\e61a";
+}
+i.edit:before {
+  content: "\e61b";
+}
+i.engine:before {
+  content: "\e61c";
+}
+i.engine_immobilizer:before {
+  content: "\e61d";
+}
+i.exterior:before {
+  content: "\e61e";
+}
+i.facebook:before {
+  content: "\e61f";
+}
+i.fav:before {
+  content: "\e620";
+}
+i.fav_outline:before {
+  content: "\e621";
+}
+i.filter:before {
+  content: "\e622";
+}
+i.foglamps:before {
+  content: "\e623";
+}
+i.forward:before {
+  content: "\e624";
+}
+i.fuel:before {
+  content: "\e625";
+}
+i.google_plus:before {
+  content: "\e626";
+}
+i.gozoomo:before {
+  content: "\e627";
+}
+i.gozoomo_logo:before {
+  content: "\e628";
+}
+i.gozoomo_logo_vertical:before {
+  content: "\e629";
+}
+i.gps:before {
+  content: "\e62a";
+}
+i.grid:before {
+  content: "\e62b";
+}
+i.hatchback:before {
+  content: "\e62c";
+}
+i.history:before {
+  content: "\e62d";
+}
+i.info:before {
+  content: "\e62e";
+}
+i.info_outline:before {
+  content: "\e62f";
+}
+i.instagram:before {
+  content: "\e630";
+}
+i.interior:before {
+  content: "\e631";
+}
+i.keyless:before {
+  content: "\e632";
+}
+i.left:before {
+  content: "\e633";
+}
+i.glyphicon-arrow-left:before {
+  content: "\e633";
+}
+i.link:before {
+  content: "\e634";
+}
+i.linked_in:before {
+  content: "\e635";
+}
+i.list:before {
+  content: "\e636";
+}
+i.location:before {
+  content: "\e637";
+}
+i.logout:before {
+  content: "\e638";
+}
+i.mail:before {
+  content: "\e639";
+}
+i.manual:before {
+  content: "\e63a";
+}
+i.mileage:before {
+  content: "\e63b";
+}
+i.music:before {
+  content: "\e63c";
+}
+i.notifications:before {
+  content: "\e63d";
+}
+i.orvm:before {
+  content: "\e63e";
+}
+i.owner:before {
+  content: "\e63f";
+}
+i.owner_2:before {
+  content: "\e640";
+}
+i.owner_more:before {
+  content: "\e641";
+}
+i.pedal:before {
+  content: "\e642";
+}
+i.person:before {
+  content: "\e643";
+}
+i.plus:before {
+  content: "\e644";
+}
+i.price:before {
+  content: "\e645";
+}
+i.radio:before {
+  content: "\e646";
+}
+i.rear_camera:before {
+  content: "\e647";
+}
+i.rear_defogger:before {
+  content: "\e648";
+}
+i.rear_parking_sensor:before {
+  content: "\e649";
+}
+i.rear_wiper:before {
+  content: "\e64a";
+}
+i.remote_trunk:before {
+  content: "\e64b";
+}
+i.report:before {
+  content: "\e64c";
+}
+i.reset:before {
+  content: "\e64d";
+}
+i.right:before {
+  content: "\e64e";
+}
+i.glyphicon-arrow-right:before{
+    content: '\e64e';
+}
+i.roof:before {
+  content: "\e64f";
+}
+i.search:before {
+  content: "\e650";
+}
+i.seats_adjustable:before {
+  content: "\e651";
+}
+i.seats_leather:before {
+  content: "\e652";
+}
+i.sedan:before {
+  content: "\e653";
+}
+i.shortlist:before {
+  content: "\e654";
+}
+i.sort:before {
+  content: "\e655";
+}
+i.steering_audio:before {
+  content: "\e656";
+}
+i.steering_power:before {
+  content: "\e657";
+}
+i.steering_tilt:before {
+  content: "\e658";
+}
+i.suv:before {
+  content: "\e659";
+}
+i.testdrive:before {
+  content: "\e65a";
+}
+i.traction_control:before {
+  content: "\e65b";
+}
+i.transmission:before {
+  content: "\e65c";
+}
+i.twitter:before {
+  content: "\e65d";
+}
+i.tyres:before {
+  content: "\e65e";
+}
+i.up:before {
+  content: "\e65f";
+}
+i.user:before {
+  content: "\e660";
+}
+i.warning_common:before {
+  content: "\e661";
+}
+i.warning_common_outline:before {
+  content: "\e662";
+}
+i.warning_major:before {
+  content: "\e663";
+}
+i.warning_major_outline:before {
+  content: "\e664";
+}
+i.warning_minor:before {
+  content: "\e665";
+}
+i.warning_minor_outline:before {
+  content: "\e666";
+}
+i.wheels:before {
+  content: "\e667";
+}
+i.windows:before {
+  content: "\e668";
+}
+i.year:before {
+  content: "\e669";
+}
+i.youtube:before {
+  content: "\e66a";
+}

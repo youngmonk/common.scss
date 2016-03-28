@@ -1,0 +1,88 @@
+input, textarea {
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	padding: 15px 20px;
+	width: 100%;
+	background-color: $white;
+        @include box-shadow(inset 0 0 6px rgba(0, 0, 0, 0.40));
+
+	&[disabled] {
+		color: $grey-light;
+	}
+    &.error{
+        border: 2px solid $red;
+    }
+    &.input--mobile {
+            padding: 12px;
+	}
+}
+
+.input-phone-with-prefix {
+    padding-left: 42px !important;
+}
+.phone-prefix {
+    position: absolute;
+    padding: 15px 12px;
+    top: 0;
+    left: 0;
+    &.mobile {
+        padding: 12px;
+    }
+}
+
+
+$color: $brand-action;
+
+input.material, textarea.material {
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+
+    display: block;
+    border: none;
+    padding: 10px 0;
+
+    &::-webkit-input-placeholder {
+        @include transition(all 0.3s $swift-out);
+    }
+    &::-moz-placeholder {
+        @include transition(all 0.3s $swift-out);
+    }
+    &:-ms-input-placeholder {
+        @include transition(all 0.3s $swift-out);
+    }
+
+    &:focus, &:valid {
+                 background-position-x: 0;
+                 &::-webkit-input-placeholder {
+                     color: $color;
+                     @include transform-multiple(scale(0.7) translateY(-30px));
+                     @include transform-origin(center left);
+                     visibility: visible !important;
+                 }
+                 &::-moz-placeholder {
+                     color: $color;
+                     visibility: visible !important;
+                 }
+                 &:-ms-input-placeholder {
+                     color: $color;
+                     @include transform-multiple(scale(0.7) translateY(-30px));
+                     @include transform-origin(center left);
+                     visibility: visible !important;
+                 }
+             }
+
+    @include transition(background-position 0.3s $swift-out);
+    background: linear-gradient(to right, $color 0%, $color 50%, #000 50%, #000 100%) no-repeat 0% 100%;
+    @include background-size(200% 1px);
+}
+
+textarea.material {
+    padding-top: 20px;
+}
+
+.errorMessage{
+    color: $red;
+    font-size: $font-size-small;
+}

@@ -1,0 +1,19 @@
+.toggle {
+  border: solid 1px $blue-grey-dark;
+}
+
+.toggle-el {
+  border-right: solid 1px #e1e1e1;
+  text-align: center;
+  padding: 15px 0;
+
+  &.active {
+    font-weight: bold;
+    color: $orange;
+    border-bottom: 2px solid $orange;
+  }
+
+  &:last-of-type {
+    border-right: 0;
+  }
+}

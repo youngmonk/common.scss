@@ -1,0 +1,12 @@
+// Opacity
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-ie: ($opacity * 100);
+  filter: alpha(opacity = $opacity-ie );
+}
+
+@mixin fog ( $alpha ) {
+  background-color: rgba( 255, 255, 255, $alpha );
+}

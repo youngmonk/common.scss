@@ -1,0 +1,22 @@
+// Mixins better than @extend http://stackoverflow.com/questions/30744625/sass-and-bootstrap-mixins-vs-extends?lq=1
+
+// Alignment
+@mixin text-left           { text-align: left; }
+@mixin text-right          { text-align: right; }
+@mixin text-center         { text-align: center; }
+@mixin text-justify        { text-align: justify; }
+@mixin text-nowrap         { white-space: nowrap; }
+
+//Background image
+@mixin background-image ($image)    { background-image:url($image); background-repeat: no-repeat;  background-size: cover;}
+
+// Transformation
+@mixin text-lowercase      { text-transform: lowercase; }
+@mixin text-uppercase      { text-transform: uppercase; }
+@mixin text-capitalize     { text-transform: capitalize; }
+
+@mixin ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
